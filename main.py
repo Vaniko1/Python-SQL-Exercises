@@ -5,7 +5,7 @@ conn = sqlite3.connect("movies_ranking.sqlite")
 cursor = conn.cursor()
 
 cursor.execute("SELECT * FROM movies WHERE Genre='Drama'")
-# მე-6 ხაზზე ბრძანება იძახებს იმ ფილმების ინფორმაციას ბაზიდან, რომელების ჟანრიც არის დრამა.
+# მე-7 ხაზზე ბრძანება იძახებს იმ ფილმების ინფორმაციას ბაზიდან, რომელების ჟანრიც არის დრამა.
 
 # record_one = cursor.fetchone()
 # record_two = cursor.fetchmany()
